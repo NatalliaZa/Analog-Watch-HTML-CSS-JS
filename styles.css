@@ -1,0 +1,142 @@
+.watch {
+    background-color: #e9e4de;
+    width: 300px;
+    height: 300px;
+    margin: 8% auto;
+    border-radius: 50%;
+    border: 14px solid #c08d53;
+    position: relative; 
+    box-shadow: 0 2vw 4vw -1vw #916a3d;
+}
+.center{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #c5ab8d;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 2px 4px -1px #916a3d;
+}
+
+.hour-hand {
+    position: absolute;
+    z-index: 5;
+    width: 4px;
+    height: 65px;
+    background-color: #c08d53;
+    top: 79px;
+    transform-origin: 50% 72px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 45%;
+    border-top-right-radius:45%;
+
+}
+.minute-hand {
+    position: absolute;
+    z-index: 6;
+    width: 4px;
+    height: 100px;
+    background-color: #c09665;
+    top: 46px;
+    transform-origin: 50% 105px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 45%;
+    border-top-right-radius:45%;
+}
+.second-hand {
+    position: absolute;
+    z-index: 7;
+    width: 2px;
+    height: 120px;
+    background-color: #e7d10a;
+    top: 26px;
+    transform-origin: 50% 125px;
+    left: 50%;
+    margin-left: -1px;
+    border-top-left-radius: 45%;
+    border-top-right-radius:45%;
+}
+
+span {
+    display: inline-block;
+    position: absolute;
+    color: #c08d53;
+    font-size: 22px;
+    font-family: 'Poiret One';
+    font-weight: 700;
+    z-index: 4;
+}
+.ampm3 {
+    top: 140px;
+    right: 30px;
+}
+
+.ampm6 {
+    bottom: 30px;
+    left: 50%;
+    margin-left: -5px;
+}
+.ampm9 {
+    left: 32px;
+    top: 140px;
+  
+}
+.ampm12 {
+    top: 30px;
+    left: 50%;
+    margin-left: -9px;
+}
+.diallines {
+    position: absolute;
+    z-index: 2;
+    width: 2px;
+    height: 15px;
+    background-color: #b99b78;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 150px;
+}
+.diallines:nth-of-type(5n){
+    position: absolute;
+    z-index: 2;
+    width: 4px;
+    height: 25px;
+    background-color: #b99b78;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 150px;
+}
+.current {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    border-radius: 7px;
+    background:  #e7d8c6;
+    text-align: center;
+    line-height: 20px;
+    color: #c08d53;
+    font-size: 11px;
+    top: 200px;
+    left: 50%;
+    margin-left: -60px;
+    font-family: "Poiret One";
+    font-weight: 700;
+    z-index: 3;
+    letter-spacing: 3px;
+    margin-left: -60px;
+    left: 50%;
+}
+.date {
+    top: 80px;
+}
+.day {
+    top: 200px;
+}
+
